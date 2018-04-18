@@ -18,8 +18,11 @@ for n in range(1011,10**7):
 	num = str(n).rjust(7,'0')
 	for h in header:
 		if rule(num):
-			#print to file
 			#f.write("0"+str(h)+num+"\n")
-			#print to terminal
 			print("0"+str(h)+num)
 #f.close
+"""Luat: tao ra cac sdt (chi tinh phan than, ko tinh dau so) sao cho:
+- Toi da 4 chu so giong nhau.
+- Toi da 3 chu so giong nhau lien nhau.
+Cach dung: lua chon in ket qua ra man hinh (dong 22) hoac in ra file (21,16,23).
+"""
