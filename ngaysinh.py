@@ -1,5 +1,5 @@
 f = open("ngaysinh.txt","w")
-for year in range(1970,2019):
+for year in range(1960,2019):
 	Nhuan = False
 	if(year%4==0 and year%100!=0):
 		Nhuan = True
